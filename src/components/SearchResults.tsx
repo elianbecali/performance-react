@@ -32,7 +32,7 @@ export function SearchResults({ totalPrice, results, onAddToWishList }: SearchRe
 
       <List
         height={300}
-        rowHeight={100}
+        rowHeight={30}
         width={900}
         overscanRowCount={5}
         rowCount={results.length}
